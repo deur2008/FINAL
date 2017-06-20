@@ -4,25 +4,45 @@
     <title>WIND</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style_wind.css" >
+    <link rel="stylesheet" href="css/w3.css" >
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="shortcut icon" type="image/x-icon" href="image/logo.gif" />
     <script type="text/javascript" src="js/indexjs.js"></script>
+	
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
   </head>
   <body background="background.png">
 		<!--logo and game-->
-		<div id="indexSlides_0">
-		</div>
+	
+<div class="w3-content w3-display-container">
+  <img class="mySlides w3-animate-fading" srl="https://scontent-tpe1-1.xx.fbcdn.net/v/t1.0-9/14980592_1783856058306594_159855137338094783_n.jpg?oh=81e5b7754b1b4be0a898c7c65fe49e31&oe=59CF55F0" style="width:100%">
+   <img class="mySlides w3-animate-fading" url="2.jpg" style="width:100%">
+  <img class="mySlides" url="3.jpg" style="width:100%">
+  <img class="mySlides" url="4.jpg" style="width:100%">
 
-		<!--top cover-->
-        <div id="indexSlides_1">
-			<div class="container">
-				<div class="picture_0"></div>
-				<p class> 
-			</div>
-		</div>
-		
-		
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+
+
 
   </body>
 </html>
