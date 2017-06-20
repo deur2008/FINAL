@@ -1,0 +1,130 @@
+html{
+  background-color: black;
+}
+.container{
+
+    max-width: 1280px;
+    max-height: 3400px;
+  	margin: 0 auto;
+}
+
+.logo{
+  position: absolute;
+    margin-top: 10px;
+  margin-left: 420px;
+  background-image: url("../image/homepage/logo.png");
+  width: 120px;
+  height: 80px;
+  background-size: 120px 80px;
+  background-repeat:no-repeat;
+}
+.title{
+  position: absolute;
+    margin-top: 30px;
+  margin-left: 560px;
+  color:white;
+  font-size: 28px;
+}
+.prompt{
+  position: absolute;
+  margin-left: 1055px;
+    margin-top: 10px;
+  background-image: url("../image/homepage/fire_main.png");
+  width: 120px;
+  height: 80px;
+  background-size: 120px 80px;
+  background-repeat:no-repeat;
+}
+.rpg{
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 1155px;
+  background-image: url("../image/homepage/character_left.png");
+  width: 120px;
+  height: 80px;
+  background-size: 120px 80px;
+  background-repeat:no-repeat;
+}
+.earth_human{
+  position: absolute;
+  margin-top: 130px;
+  background-image: url("../image/homepage/earth_character.png");
+  width: 253px;
+  height: 450px;
+  background-size: 253px 450px;
+  background-repeat:no-repeat;
+}
+.fire_human{
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 320px;
+  background-image: url("../image/homepage/fire_character.png");
+  width: 280px;
+  height: 450px;
+  background-size: 280px 450px;
+  background-repeat:no-repeat;
+}
+.water_human{
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 640px;
+  background-image: url("../image/homepage/water_character.png");
+  width: 253px;
+  height: 450px;
+  background-size: 253px 450px;
+  background-repeat:no-repeat;
+}
+.wind_human{
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 960px;
+  background-image: url("../image/homepage/wind_character.png");
+  width: 253px;
+  height: 450px;
+  background-size: 253px 450px;
+  background-repeat:no-repeat;
+
+}
+.earth_human, .wind_human, .water_human, .fire_human{
+  opacity:0.6;
+}
+
+
+.wind_human:hover, .fire_human:hover, .water_human:hover, .earth_human:hover{
+  opacity:1;
+}
+.earth_human{
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 2s;
+}
+.fire_human{
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 3s; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 3s;
+}
+.water_human{
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 4s;
+}
+.wind_human{
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 5s; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 5s;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+    from {opacity: 0.7;}
+    to {opacity: 1;}
+}
+/* Standard syntax */
+@keyframes example {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
