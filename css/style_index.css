@@ -1,11 +1,10 @@
 html{
-  background-color: black;
+   background-image: url("../background.png");
 }
 .container{
-
     max-width: 1280px;
     max-height: 3400px;
-  	margin: 0 auto;
+    margin: 0 auto;
 }
 
 .logo{
@@ -80,8 +79,48 @@ html{
   margin-left: 960px;
   background-image: url("../image/homepage/wind_character.png");
   width: 253px;
-  height: 450px;
-  background-size: 253px 450px;
+  height: 430px;
+  background-size: 253px 430px;
+  background-repeat:no-repeat;
+
+}
+.earth_human_logo{
+  position: absolute;
+  margin-top: 130px;
+  background-image: url("../image/homepage/earth_logo.png");
+  width: 100px;
+  height: 100px;
+  background-size: 100px 100px;
+  background-repeat:no-repeat;
+}
+.fire_human_logo{
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 320px;
+  background-image: url("../image/homepage/fire_logo.png");
+  width: 100px;
+  height: 100px;
+  background-size: 100px 100px;
+  background-repeat:no-repeat;
+}
+.water_human_logo{
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 640px;
+  background-image: url("../image/homepage/water_logo.png");
+  width: 100px;
+  height: 100px;
+  background-size: 100px 100px;
+  background-repeat:no-repeat;
+}
+.wind_human_logo{
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 960px;
+  background-image: url("../image/homepage/wind_logo.png");
+  width: 100px;
+  height: 100px;
+  background-size: 100px 100px;
   background-repeat:no-repeat;
 
 }
@@ -91,6 +130,9 @@ html{
 
 
 .wind_human:hover, .fire_human:hover, .water_human:hover, .earth_human:hover{
+  width: 263px;
+  height: 460px;
+  background-size: 263px 460px;
   opacity:1;
 }
 .earth_human{
@@ -127,4 +169,122 @@ html{
 @keyframes example {
   from {opacity: 0;}
   to {opacity: 1;}
+}
+.news_hmg{
+  position:absolute;
+  margin-left: 580px;
+  margin-top: 700px;
+  font-size: 28px;
+  color:black;
+  text-align:center;
+}
+.news_note0{
+  position:absolute;
+  margin-left: 150px;
+  margin-top: 740px;
+  font-size: 24px;
+  color:black;
+  text-align:center;
+}
+.news_note1{
+  position:absolute;
+  margin-left: 170px;
+  margin-top: 760px;
+  font-size: 24px;
+  color:black;
+  text-align:center;
+}
+.news_note2{
+  position:absolute;
+  margin-left: 250px;
+  margin-top: 780px;
+  font-size: 24px;
+  color:black;
+  text-align:center;
+}
+.news_note3{
+  position:absolute;
+  margin-left: 100px;
+  margin-top: 800px;
+  font-size: 24px;
+  color:black;
+  text-align:center;
+}
+.news_note4{
+  position:absolute;
+  margin-left: 100px;
+  margin-top: 820px;
+  font-size: 24px;
+  color:black;
+  text-align:center;
+}
+.background_news{
+  position:absolute;
+  background-color: white;
+  opacity: 0.5;
+  margin-top: 680px;
+  width: 100%;
+  height: 280px;
+  background-size: 100% 280px;
+}
+.background_news_earth{
+  position:absolute;
+  background-image: url("../image/homepage/earth_cover.jpg");
+  margin-top: 920px;
+  width: 100%;
+  height: 800px;
+  background-size: 100% 800px;
+    background-repeat:no-repeat;
+}
+
+.background_news_fire{
+  position:absolute;
+  background-image: url("../image/homepage/fire_cover.jpg");
+  margin-top: 1689px;
+  width: 100%;
+  height: 800px;
+  background-size: 100% 800px;
+    background-repeat:no-repeat;
+}
+
+.background_news_flood{
+  position:absolute;
+  background-image: url("../image/homepage/water_cover.jpg");
+  margin-top: 2478px;
+  width: 100%;
+  height: 800px;
+  background-size: 100% 800px;
+    background-repeat:no-repeat;
+}
+.background_news_wind{
+  position:absolute;
+  background-image: url("../image/homepage/wind_cover.jpg");
+  margin-top: 3277px;
+  width: 100%;
+  height: 800px;
+  background-size: 100% 800px;
+    background-repeat:no-repeat;
+}
+
+
+@-webkit-keyframes spaceboots {
+	0% { -webkit-transform: translate(2px, 1px) rotate(0deg); }
+	10% { -webkit-transform: translate(-1px, -2px) rotate(-1deg); }
+	20% { -webkit-transform: translate(-3px, 0px) rotate(1deg); }
+	30% { -webkit-transform: translate(0px, 2px) rotate(0deg); }
+	40% { -webkit-transform: translate(1px, -1px) rotate(1deg); }
+	50% { -webkit-transform: translate(-1px, 2px) rotate(-1deg); }
+	60% { -webkit-transform: translate(-3px, 1px) rotate(0deg); }
+	70% { -webkit-transform: translate(2px, 1px) rotate(-1deg); }
+	80% { -webkit-transform: translate(-1px, -1px) rotate(1deg); }
+	90% { -webkit-transform: translate(2px, 2px) rotate(0deg); }
+	100% { -webkit-transform: translate(1px, -2px) rotate(-1deg); }
+}
+.wind_human:hover ~ .wind_human_logo, .fire_human:hover ~ .fire_human_logo, .water_human:hover ~ .water_human_logo, .earth_human:hover ~ .earth_human_logo,
+.wind_human:focus ~ .wind_human_logo, .fire_human:focus ~ .fire_human_logo, .water_human:focus ~ .water_human_logo, .earth_human:focus ~ .earth_human_logo {
+	-webkit-animation-name: spaceboots;
+	-webkit-animation-duration: 0.8s;
+	-webkit-transform-origin:50% 50%;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
 }
