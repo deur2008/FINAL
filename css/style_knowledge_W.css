@@ -10,7 +10,6 @@ html{
 .logo{
   position: absolute;
     margin-top: 10px;
-  margin-left: 420px;
   background-image: url("../image/homepage/logo.png");
   width: 120px;
   height: 80px;
