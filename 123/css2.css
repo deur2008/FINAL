@@ -1,0 +1,84 @@
+
+html, body
+{ height:100%; background-color: #ffffff;}
+body
+{ margin:0; padding:0; overflow:hidden; }
+#flashContent
+{ width:100%; height:100%; }
+
+.image_hide{
+    margin: 0 auto;
+    z-index: 2;
+    position: absolute;
+    background-image: url("../html/images/total.png");
+    opacity: 1;
+    width: 300px;
+    height: 300px;
+    z-index: 11;
+    margin-left:  20%;
+    margin-top:  5%;
+    background-size: 300px 300px;
+    background-repeat:no-repeat;
+}
+
+.panel_body1{
+  opacity: 0.7;
+
+  position:absolute;
+  margin-left:  43%;
+  margin-top:  32%;
+
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  color: black;
+  font-size: 10pt;
+  text-decoration: none;
+}
+.panel_body11{
+  opacity: 0.9;
+text-decoration:none;
+  position:absolute;
+  margin-left:  43%;
+  margin-top:  32%;
+  background-color: #4CAF50;
+  border: none;
+  color: #4CAF50;
+  color: black;
+  font-size: 10pt;
+}
+
+#flashContent a{
+
+  border-radius: 4px;
+  background-color: #b2adad;
+  color: #black;
+  text-align: center;
+  font-size: 40px;
+  padding: 12px;
+  width: 200px;
+  transition: all 0.1s;
+  border-radius: 80px;
+  box-shadow: 0 9px black;
+}
+
+
+#flashContent a:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+@keyframes fadein {
+   from {
+       opacity: 0;
+   }
+   to {
+       opacity: 1;
+   }
+}
+.source span{
+animation: fadein 2s;
+}
+.destination span{
+animation: fadein 2s;
+}

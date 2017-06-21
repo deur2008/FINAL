@@ -8,8 +8,66 @@
 		<script type="text/javascript" src="js/index.js"></script>
 
   </head>
+  <script>
+  function myFunction_1() {
+		 document.getElementById("qq2").style.opacity = "0.1";
+      document.getElementById("qq3").style.opacity = "0.1";
+       document.getElementById("qq4").style.opacity = "0.1";
+        document.getElementById("qq1").style.opacity = "1";
+        document.getElementById("earth_human").style.display = "";
+        document.getElementById("fire_human").style.display = "none";
+        document.getElementById("water_human").style.display = "none";
+        document.getElementById("wind_human").style.display = "none";
+
+
+   }
+   function myFunction_2() {
+     document.getElementById("qq1").style.opacity = "0.1";
+      document.getElementById("qq3").style.opacity = "0.1";
+       document.getElementById("qq4").style.opacity = "0.1";
+        document.getElementById("qq2").style.opacity = "1";
+        document.getElementById("fire_human").style.display = "";
+        document.getElementById("earth_human").style.display = "none";
+        document.getElementById("water_human").style.display = "none";
+        document.getElementById("wind_human").style.display = "none";
+
+    }
+    function myFunction_3() {
+      document.getElementById("qq1").style.opacity = "0.1";
+       document.getElementById("qq2").style.opacity = "0.1";
+        document.getElementById("qq4").style.opacity = "0.1";
+         document.getElementById("qq3").style.opacity = "1";
+          document.getElementById("water_human").style.display = "";
+          document.getElementById("fire_human").style.display = "none";
+          document.getElementById("earth_human").style.display = "none";
+          document.getElementById("wind_human").style.display = "none";
+
+     }
+     function myFunction_4() {
+       document.getElementById("qq1").style.opacity = "0.1";
+        document.getElementById("qq3").style.opacity = "0.1";
+         document.getElementById("qq2").style.opacity = "0.1";
+          document.getElementById("qq4").style.opacity = "1";
+           document.getElementById("wind_human").style.display = "";
+           document.getElementById("fire_human").style.display = "none";
+           document.getElementById("water_human").style.display = "none";
+           document.getElementById("earth_human").style.display = "none";
+
+      }
+  </script>
   <body>
         <div class="container">
-    	
+          <div class="fairy_logo"></div>
+          <div class="fairy_word1">你好我是XXX,歡迎來到XXX,在這裡你可以<br>選擇你想要了解的知識陣營,在陣營中學習與一<br>些問答，可以增加你對該災害的認知以及了解。</div>
+          <div class=bg_black></div>
+          <a onclick="myFunction_1()" class="earth_pick" id="qq1"></a>
+          <a onclick="myFunction_2()" class="fire_pick" id="qq2"></a>
+          <a onclick="myFunction_3()" class="water_pick" id="qq3"></a>
+          <a onclick="myFunction_4()" class="wind_pick" id="qq4"></a>
+          <a id="fire_human" style="display:none"></a>
+          <a id="water_human" style="display:none"></a>
+          <a id="wind_human" style="display:none"></a>
+          <a id="earth_human" style="display:none"></a>
+    	</div>
   </body>
 </html>
