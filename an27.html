@@ -1,0 +1,101 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+	<head>
+		<title>an27</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<link rel="stylesheet" type="text/css" href="css1.css">
+
+				<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+			  <script src="https://webduino.io/components/webduino-js/dist/webduino-all.min.js"></script>
+			  <script src="https://blockly.webduino.io/webduino-blockly.js"></script>
+			  <script src="https://blockly.webduino.io/lib/firebase.js"></script>
+			  <script src="https://blockly.webduino.io/lib/runtime.min.js"></script>
+	</head>
+	<body>
+	<script id="jsbin-javascript">
+var led1;
+var led2;
+var _E8_A8_88_E6_99_82_E5_99_A8
+
+
+if(window.readyBoardLength){
+  window.readyBoardLength = window.readyBoardLength + 1;
+}else{
+  window.readyBoardLength = 1;
+}
+
+boardReady({device: 'Llbd'}, function (board) {
+  board.systemReset();
+  board.samplingInterval = 250;
+  led1 = getLed(board, 6);
+  led2 = getLed(board, 5);
+  if(window.boardReadyNumber){
+    window.boardReadyNumber = window.boardReadyNumber +1;
+  }else{
+    window.boardReadyNumber = 1;
+  }
+  allBoardReady(window.boardReadyNumber);
+});
+
+function allBoardReady(boardReadyNumber){
+  if(window.boardReadyNumber==window.readyBoardLength){
+     var blinkVar=1;
+  var blinkFunction=function(){
+    blinkVar=blinkVar+1;
+    if(blinkVar%2==0){
+    led1.on();
+    led2.on();
+
+  }else{
+    led2.off();
+	    led1.off();
+    }
+    _E8_A8_88_E6_99_82_E5_99_A8 = setTimeout(blinkFunction,500);
+  };
+  blinkFunction();
+  }
+}
+
+		</script>
+		<div id="flashContent">
+			<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="100%%" height="100%%" id="an27" align="middle">
+				<a href="../html/an1.html" class="panel_body2" style="text-decoration: none">重來一次</a>
+				<embed src="../html/music/27以上為我們的2d動畫2.mp3" autostart=true hidden=true></embed>
+
+				<param name="movie" value="an27.swf" />
+				<param name="quality" value="high" />
+				<param name="bgcolor" value="#ffffff" />
+				<param name="play" value="true" />
+				<param name="loop" value="true" />
+				<param name="wmode" value="window" />
+				<param name="scale" value="showall" />
+				<param name="menu" value="true" />
+				<param name="devicefont" value="true" />
+				<param name="salign" value="" />
+				<param name="allowScriptAccess" value="sameDomain" />
+				<param name="allowFullScreen" value="true" />
+				<!--[if !IE]>-->
+				<object type="application/x-shockwave-flash" data="an27.swf" width="100%%" height="100%%">
+					<param name="movie" value="an27.swf" />
+					<param name="quality" value="high" />
+					<param name="bgcolor" value="#ffffff" />
+					<param name="play" value="true" />
+					<param name="loop" value="true" />
+					<param name="wmode" value="window" />
+					<param name="scale" value="showall" />
+					<param name="menu" value="true" />
+					<param name="devicefont" value="true" />
+					<param name="salign" value="" />
+					<param name="allowScriptAccess" value="sameDomain" />
+					<param name="allowFullScreen" value="true" />
+				<!--<![endif]-->
+					<a href="http://www.adobe.com/go/getflash">
+						<img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" />
+					</a>
+				<!--[if !IE]>-->
+				</object>
+				<!--<![endif]-->
+			</object>
+		</div>
+	</body>
+</html>
