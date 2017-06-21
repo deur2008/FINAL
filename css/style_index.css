@@ -1501,3 +1501,538 @@ html{
                                     background-repeat:no-repeat;
                                   }
 }
+
+
+
+
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+
+
+    .container{
+        max-width: 1280px;
+        max-height: 3400px;
+        margin: 0 auto;
+    }
+    .logo{
+      position: absolute;
+      margin-top: 10px;
+      background-image: url("../image/homepage/logo.png");
+      width: 80px;
+      height:80px;
+      background-size: 80px 80px;
+      background-repeat:no-repeat;
+    }
+    .title{
+      position: absolute;
+        margin-top: 30px;
+      margin-left: 560px;
+      color:white;
+      font-size: 28px;
+    }
+    .prompt{
+      position: absolute;
+      margin-left: 1055px;
+        margin-top: 10px;
+      background-image: url("../image/homepage/fire_main.png");
+      width: 120px;
+      height: 80px;
+      background-size: 120px 80px;
+      background-repeat:no-repeat;
+    }
+    .rpg{
+      position: absolute;
+      margin-top: 10px;
+      margin-left: 1155px;
+      background-image: url("../image/homepage/character_left.png");
+      width: 120px;
+      height: 80px;
+      background-size: 120px 80px;
+      background-repeat:no-repeat;
+    }
+    .earth_human{
+      position: absolute;
+      margin-top: 210px;
+      background-image: url("../image/homepage/earth_character.png");
+      width: 253px;
+      height: 450px;
+      background-size: 253px 450px;
+      background-repeat:no-repeat;
+    }
+    .fire_human{
+      position: absolute;
+      margin-top: 180px;
+      margin-left: 320px;
+      background-image: url("../image/homepage/fire_character.png");
+      width: 280px;
+      height: 450px;
+      background-size: 280px 450px;
+      background-repeat:no-repeat;
+    }
+    .water_human{
+      position: absolute;
+      margin-top: 180px;
+      margin-left: 640px;
+      background-image: url("../image/homepage/water_character.png");
+      width: 253px;
+      height: 450px;
+      background-size: 253px 450px;
+      background-repeat:no-repeat;
+    }
+    .wind_human{
+      position: absolute;
+      margin-top: 174px;
+      margin-left: 960px;
+      background-image: url("../image/homepage/wind_character.png");
+      width: 253px;
+      height: 430px;
+      background-size: 253px 430px;
+      background-repeat:no-repeat;
+
+    }
+    .earth_human_logo{
+      position: absolute;
+      margin-top: 150px;
+      background-image: url("../image/homepage/earth_logo.png");
+      width: 100px;
+      height: 100px;
+      background-size: 100px 100px;
+      background-repeat:no-repeat;
+    }
+    .fire_human_logo{
+      position: absolute;
+      margin-top: 120px;
+      margin-left: 320px;
+      background-image: url("../image/homepage/fire_logo.png");
+      width: 100px;
+      height: 100px;
+      background-size: 100px 100px;
+      background-repeat:no-repeat;
+    }
+    .water_human_logo{
+      position: absolute;
+      margin-top: 120px;
+      margin-left: 640px;
+      background-image: url("../image/homepage/water_logo.png");
+      width: 100px;
+      height: 100px;
+      background-size: 100px 100px;
+      background-repeat:no-repeat;
+    }
+    .wind_human_logo{
+      position: absolute;
+      margin-top: 120px;
+      margin-left: 960px;
+      background-image: url("../image/homepage/wind_logo.png");
+      width: 100px;
+      height: 100px;
+      background-size: 100px 100px;
+      background-repeat:no-repeat;
+
+    }
+
+
+    .news_hmg{
+      position:absolute;
+      margin-left: 580px;
+      margin-top: 700px;
+      font-size: 28px;
+      color:black;
+      text-align:center;
+    }
+    .news_note0{
+      position:absolute;
+      margin-left: 150px;
+      margin-top: 740px;
+      font-size: 24px;
+      color:black;
+      text-align:center;
+    }
+    .news_note1{
+      position:absolute;
+      margin-left: 170px;
+      margin-top: 760px;
+      font-size: 24px;
+      color:black;
+      text-align:center;
+    }
+    .news_note2{
+      position:absolute;
+      margin-left: 250px;
+      margin-top: 780px;
+      font-size: 24px;
+      color:black;
+      text-align:center;
+    }
+    .news_note3{
+      position:absolute;
+      margin-left: 100px;
+      margin-top: 800px;
+      font-size: 24px;
+      color:black;
+      text-align:center;
+    }
+    .news_note4{
+      position:absolute;
+      margin-left: 100px;
+      margin-top: 820px;
+      font-size: 24px;
+      color:black;
+      text-align:center;
+    }
+
+
+    .picture_1{
+      position: absolute;
+      background-image: url("../image/homepage/earth_main.png");
+      margin-left: 50px;
+      margin-top: 150px;
+      width: 282px;
+      height: 282px;
+      background-size: 282px; 282px;
+      background-repeat:no-repeat;
+    }
+
+    .picture_2{
+      position: absolute;
+      background-image: url("../image/homepage/earth_logo.png");
+      margin-left: 1000px;
+      margin-top: 400px;
+      width: 282px;
+      height: 282px;
+      background-size: 282px; 282px;
+      background-repeat:no-repeat;
+    }
+    .label_earth1{
+      color:black;
+      position:absolute;
+      font-weight: bold;
+      font-size: 40pt;
+      margin-top: 150px;
+      margin-left: 350px;
+      font-family:DFKai-sb;
+    }
+    .label_earth2{
+      color:black;
+      position:absolute;
+      font-weight: bold;
+      font-size: 40pt;
+      margin-top: 150px;
+      margin-left: 700px;
+    }
+    .label_earth3{
+      color:black;
+      position:absolute;
+      font-size: 20pt;
+      margin-top: 250px;
+      margin-left: 400px;
+    }
+    .label_earth4{
+      color:black;
+      position:absolute;
+      font-size: 20pt;
+      margin-top: 280px;
+      margin-left: 400px;
+    }
+    .label_earth5{
+      color:black;
+      position:absolute;
+      font-size: 20pt;
+      margin-top: 310px;
+      margin-left: 400px;
+    }
+
+    .label_earth6{
+      color:black;
+      position:absolute;
+      text-decoration: underline;
+      font-size: 10pt;
+      margin-top: 350px;
+      margin-left: 1000px;
+    }
+    .label_earth7{
+      color:black;
+      position:absolute;
+      font-weight: bold;
+      font-size: 40pt;
+      margin-top: 500px;
+      margin-left: 100px;
+      font-family:DFKai-sb;
+    }
+    .label_earth8{
+      color:black;
+      position:absolute;
+      font-weight: bold;
+      font-size: 40pt;
+      margin-top: 550px;
+      margin-left: 250px;
+    }
+
+
+
+    .picture_3{
+      position: absolute;
+      background-image: url("../image/homepage/fire_main.png");
+      margin-left: 1000px;
+      margin-top: 150px;
+      width: 282px;
+      height: 282px;
+      background-size: 282px; 282px;
+      background-repeat:no-repeat;
+    }
+
+    .picture_4{
+      position: absolute;
+      background-image: url("../image/homepage/fire_logo.png");
+
+      margin-top: 400px;
+      width: 282px;
+      height: 282px;
+      background-size: 282px; 282px;
+      background-repeat:no-repeat;
+    }
+
+    .label_fire1{
+      color:black;
+      position:absolute;
+      font-weight: bold;
+      font-size: 40pt;
+      margin-top: 150px;
+      font-family:DFKai-sb;
+    }
+    .label_fire2{
+      color:black;
+      position:absolute;
+      font-weight: bold;
+      font-size: 40pt;
+      margin-top: 150px;
+      margin-left: 350px;
+    }
+    .label_fire3{
+      color:black;
+      position:absolute;
+      font-size: 20pt;
+      margin-top: 250px;
+      margin-left: 50px;
+    }
+    .label_fire4{
+      color:black;
+      position:absolute;
+      font-size: 20pt;
+      margin-top: 280px;
+      margin-left: 50px;
+    }
+    .label_fire5{
+      color:black;
+      position:absolute;
+      font-size: 20pt;
+      margin-top: 310px;
+      margin-left: 50px;
+    }
+
+    .label_fire6{
+      color:black;
+      position:absolute;
+      text-decoration: underline;
+      font-size: 10pt;
+      margin-top: 350px;
+      margin-left: 600px;
+    }
+    .label_fire7{
+      color:black;
+      position:absolute;
+      font-weight: bold;
+      font-size: 40pt;
+      margin-top: 500px;
+      margin-left: 500px;
+      font-family:DFKai-sb;
+    }
+    .label_fire8{
+      color:black;
+      position:absolute;
+      font-weight: bold;
+      font-size: 40pt;
+      margin-top: 550px;
+      margin-left: 750px;
+    }
+
+
+
+
+
+    .picture_5{
+      position: absolute;
+      background-image: url("../image/homepage/water_main.png");
+      margin-left: 50px;
+      margin-top: 150px;
+      width: 282px;
+      height: 282px;
+      background-size: 282px; 282px;
+      background-repeat:no-repeat;
+    }
+
+    .picture_6{
+      position: absolute;
+      background-image: url("../image/homepage/water_logo.png");
+      margin-left: 1000px;
+      margin-top: 400px;
+      width: 282px;
+      height: 282px;
+      background-size: 282px; 282px;
+      background-repeat:no-repeat;
+    }
+    .label_water1{
+      color:black;
+      position:absolute;
+      font-weight: bold;
+      font-size: 40pt;
+      margin-top: 150px;
+      margin-left: 350px;
+      font-family:DFKai-sb;
+    }
+    .label_water2{
+      color:black;
+      position:absolute;
+      font-weight: bold;
+      font-size: 40pt;
+      margin-top: 150px;
+      margin-left: 700px;
+    }
+    .label_water3{
+      color:black;
+      position:absolute;
+      font-size: 20pt;
+      margin-top: 250px;
+      margin-left: 400px;
+    }
+    .label_water4{
+      color:black;
+      position:absolute;
+      font-size: 20pt;
+      margin-top: 280px;
+      margin-left: 400px;
+    }
+    .label_water5{
+      color:black;
+      position:absolute;
+      font-size: 20pt;
+      margin-top: 310px;
+      margin-left: 400px;
+    }
+
+    .label_water6{
+      color:black;
+      position:absolute;
+      text-decoration: underline;
+      font-size: 10pt;
+      margin-top: 350px;
+      margin-left: 1000px;
+    }
+    .label_water7{
+      color:black;
+      position:absolute;
+      font-weight: bold;
+      font-size: 40pt;
+      margin-top: 500px;
+      margin-left: 100px;
+      font-family:DFKai-sb;
+    }
+    .label_water8{
+      color:black;
+      position:absolute;
+      font-weight: bold;
+      font-size: 40pt;
+      margin-top: 550px;
+      margin-left: 250px;
+    }
+
+
+
+
+    .picture_7{
+      position: absolute;
+      background-image: url("../image/homepage/wind_main.png");
+      margin-left: 1000px;
+      margin-top: 150px;
+      width: 282px;
+      height: 282px;
+      background-size: 282px; 282px;
+      background-repeat:no-repeat;
+    }
+
+    .picture_8{
+      position: absolute;
+      background-image: url("../image/homepage/wind_logo.png");
+
+      margin-top: 400px;
+      width: 282px;
+      height: 282px;
+      background-size: 282px; 282px;
+      background-repeat:no-repeat;
+    }
+
+    .label_wind1{
+      color:black;
+      position:absolute;
+      font-weight: bold;
+      font-size: 40pt;
+      margin-top: 150px;
+      font-family:DFKai-sb;
+    }
+    .label_wind2{
+      color:black;
+      position:absolute;
+      font-weight: bold;
+      font-size: 40pt;
+      margin-top: 150px;
+      margin-left: 350px;
+    }
+    .label_wind3{
+      color:black;
+      position:absolute;
+      font-size: 20pt;
+      margin-top: 250px;
+      margin-left: 50px;
+    }
+    .label_wind4{
+      color:black;
+      position:absolute;
+      font-size: 20pt;
+      margin-top: 280px;
+      margin-left: 50px;
+    }
+    .label_wind5{
+      color:black;
+      position:absolute;
+      font-size: 20pt;
+      margin-top: 310px;
+      margin-left: 50px;
+    }
+
+    .label_wind6{
+      color:black;
+      position:absolute;
+      text-decoration: underline;
+      font-size: 10pt;
+      margin-top: 350px;
+      margin-left: 600px;
+    }
+    .label_wind7{
+      color:black;
+      position:absolute;
+      font-weight: bold;
+      font-size: 40pt;
+      margin-top: 500px;
+      margin-left: 500px;
+      font-family:DFKai-sb;
+    }
+    .label_wind8{
+      color:black;
+      position:absolute;
+      font-weight: bold;
+      font-size: 40pt;
+      margin-top: 550px;
+      margin-left: 750px;
+    }
+
+}
