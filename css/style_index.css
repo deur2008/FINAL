@@ -1,5 +1,6 @@
-html{
-   background-image: url("../background.png");
+html{  background-image: url(http://www.alloyteam.com/wp-content/uploads/2014/01/section01.jpg);
+
+  // background-image: url("../background.png");
 }
 @media screen and (min-width: 1200px) {
 
