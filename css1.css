@@ -1,6 +1,7 @@
 
 html, body
 {
+  background-image: url(http://www.alloyteam.com/wp-content/uploads/2014/01/section01.jpg);
   height:100%; background-color: #ffffff;}
 body
 { margin:0; padding:0; overflow:hidden; }
